@@ -84,7 +84,7 @@ export function Report() {
         <div className='report-container'>
           <img src={logo} alt="Logomarca" width={'120px'} />
           <h3>SERVIÇOS DE TOPOGRAFIA - Parcelamento do Solo</h3>
-          <span>Emerson Pinheiro dos Santos - Geógrafo - CREA: MS 63255-D/MS</span>
+          <span>Emerson Pinheiro dos Santos - Geógrafo - CREA: 63255-D/MS</span>
         </div>
         <div className='report-container'>
           <h2>Relatório Fotográfico</h2>
