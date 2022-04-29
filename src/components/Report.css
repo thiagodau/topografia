@@ -13,7 +13,7 @@
 
 .report-container {
   border-top: 1px solid #000;
-  padding: 10px;
+  padding: 5px;
 }
 
 .report-container h3 {
@@ -31,15 +31,19 @@
 
 .report-pictures {
   width: 100%;
+  height: auto;
   border-top: 0;
-  padding: 20px 5px 20px 5px;
   text-align: center;
 }
 
 .report-pictures img {
-  max-width: 250px;
-  height: 180px;
-  margin: 10px;
+  /*max-width: 380px;*/
+  /*min-height: 250px;*/
+  margin: 5px;
+}
+
+#images {
+  text-align: center;
 }
 
 .toggle {

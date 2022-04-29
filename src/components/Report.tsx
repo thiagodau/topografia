@@ -23,7 +23,21 @@ export function Report() {
         let fileReader = new FileReader()
         fileReader.onload = function (event: any) {
           let dataUrl = event.target.result
-          $('#images').prepend($('<img>', { id: 'theImg', src: dataUrl }))
+          console.log(event)
+
+          let id = '#images'
+
+          let valueW = '380px';
+          let valueH = '250px';
+
+
+          if (indexy >= 2) {
+            valueW = '250px';
+            valueH = '180px';
+            id = '#images2'
+          }
+
+          $(id).prepend($('<img>', { id: 'theImg', src: dataUrl, width: valueW, height: valueH }))
         }
         fileReader.readAsDataURL(arrayOfImages[indexy])
       }
@@ -123,6 +137,9 @@ export function Report() {
             </form>
 
             <div id='images'>
+            </div>
+
+            <div id='images2'>
             </div>
           </div>
         </div>
