@@ -19,6 +19,7 @@
 .report-container h3 {
   text-decoration: underline;
 }
+
 .report-container span {
   font-size: 15px;
 }
@@ -43,6 +44,7 @@
 }
 
 #images {
+  height: 20rem;
   text-align: center;
 }
 

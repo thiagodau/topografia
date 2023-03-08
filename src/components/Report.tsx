@@ -27,8 +27,8 @@ export function Report() {
 
           let id = '#images'
 
-          let valueW = '350px';
-          let valueH = '180px';
+          let valueW = '30rem';
+          let valueH = '11rem';
 
 
           if (indexy >= 2) {
